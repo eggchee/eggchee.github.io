@@ -1,16 +1,10 @@
-<body>
-<table border="1">
-  <tr>
-    <td>名前</td>
-    <td><?php echo htmlspecialchars($_POST["name"], ENT_QUOTES) ?></td>
-  </tr>
-  <tr>
-    <td>メールアドレス</td>
-    <td><?php echo htmlspecialchars($_POST["mail"], ENT_QUOTES) ?></td>
-  </tr>
-  <tr>
-    <td>お問合せ内容</td>
-    <td><?php echo htmlspecialchars($_POST["comment"], ENT_QUOTES) ?></td>
-  </tr>
-</table>
-</body>
+<?php
+
+$name = $_GET["name"];
+$gender = $_GET["gender"];
+$blood = $_GET["blood"];
+$opinion = $_GET["opinion"];
+
+include "conf.html";
+
+?>
