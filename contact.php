@@ -1,9 +1,9 @@
 <?php
 
-$name = $_GET["name"];
-$gender = $_GET["gender"];
-$blood = $_GET["blood"];
-$opinion = $_GET["opinion"];
+$name = $_POST["name"];
+$gender = $_POST["gender"];
+$blood = $_POST["blood"];
+$opinion = $_POST["opinion"];
 
 include "conf.html";
 
