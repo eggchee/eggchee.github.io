@@ -59,7 +59,7 @@ void mousePressed() {
 
   drawAlga(random(width), random(height), random(TWO_PI));
 
-  save("cover.png");
+  //save("cover.png");
 }
 
 void draw() {
